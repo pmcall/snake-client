@@ -12,6 +12,18 @@ const handleUserInput = function (keyPress) {
       console.log("Thanks for playing!")
       process.exit();
     }
+    if (keyPress === "w") {
+      console.log("Move: up");
+    }
+    if (keyPress === "a") {
+      console.log("Move: left");
+    }
+    if (keyPress === "s") {
+      console.log("Move: down");
+    }
+    if (keyPress === "d") {
+      console.log("Move: right");
+    }
 };
 
 module.exports = { setupInput }
