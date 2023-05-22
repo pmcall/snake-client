@@ -1,4 +1,4 @@
-# Snake The Slow Version
+# Snake: *The Slow Version*
 
 ## A *slow* slither down memory lane
 Do you remember the game that came with every old phone? Snake is clearly a cultural touchpoint for many generations, but was also stress-inducing with all that speed!
