@@ -1,5 +1,6 @@
 const IP = "10.0.2.15";
 const PORT = "50541";
+
 const messages = {
   "1": "Say: sssssSSSSSsss",
   "2": "Say: snek",
@@ -7,6 +8,7 @@ const messages = {
   "4": "Say: nom nom nom",
   "5": "Say: sssuper sssnake"
 };
+
 const movement = {
   "w": "Move: up",
   "a": "Move: left",

@@ -13,10 +13,13 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
   });
+
   conn.on("connect", () => {
     conn.write("Name: PAB");
   });
+
   conn.setTimeout(5000);
+  
   conn.on('timeout', () => {
     console.log("You took too long to make a move. Try again.");
     conn.end();
