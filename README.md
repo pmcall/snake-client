@@ -15,7 +15,7 @@ Did I mention this is multiplayer?!
 ## Let's Get This Slow Party SSStarted
 Before you can run this client, you will need to be running the server side which you can download and install from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
 
-## Final Product
+## Check This OUT!
 
 !["Fun messages!"](https://github.com/pmcall/snake-client/blob/master/screenshots/Screenshot%202023-05-22%20at%2010.38.05.png?raw=true)
 !["Look at how crazy long this snake is!!"](https://github.com/pmcall/snake-client/blob/master/screenshots/Screenshot%202023-05-22%20at%2010.41.34.png?raw=true)
@@ -25,4 +25,5 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+- Use WASD keys to move and num keys 1-5 to announce some cool messages to your buddies!
 - Have so much *ssslow* fun! 🐍
