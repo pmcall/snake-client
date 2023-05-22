@@ -28,6 +28,21 @@ const handleUserInput = function(keyPress) {
   if (keyPress === "d") {
     connection.write("Move: right");
   }
+  if (keyPress === "1") {
+    connection.write("Say: sssssSSSSSsss!");
+  }
+  if (keyPress === "2") {
+    connection.write("Say: snek");
+  }
+  if (keyPress === "3") {
+    connection.write("Say: snake POWER");
+  }
+  if (keyPress === "4") {
+    connection.write("Say: nom nom nom");
+  }
+  if (keyPress === "5") {
+    connection.write("Say: sssuper sssnake");
+  }
 };
 
 module.exports = { setupInput };
